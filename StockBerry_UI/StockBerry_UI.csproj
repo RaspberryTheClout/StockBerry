@@ -8,4 +8,25 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\logo_128.png" />
+    <None Remove="Assets\logo_256.png" />
+    <None Remove="Assets\logo_512.png" />
+    <None Remove="Assets\logo_64.png" />
+    <None Remove="Assets\logo_main.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockBerry_Logic\StockBerry_Logic.csproj" />
+    <ProjectReference Include="..\StockBerry_Objects\StockBerry_Objects.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\logo_128.png" />
+    <Resource Include="Assets\logo_256.png" />
+    <Resource Include="Assets\logo_512.png" />
+    <Resource Include="Assets\logo_64.png" />
+    <Resource Include="Assets\logo_main.png" />
+  </ItemGroup>
+
 </Project>
