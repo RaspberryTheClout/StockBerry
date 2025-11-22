@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="StockBerry_Data/StockBerry_Data.csproj" />
+  <Project Path="StockBerry_Logic/StockBerry_Logic.csproj" />
+  <Project Path="StockBerry_Objects/StockBerry_Objects.csproj" />
+  <Project Path="StockBerry_UI/StockBerry_UI.csproj" />
+</Solution>
